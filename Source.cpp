@@ -21,8 +21,8 @@ int main()
 
 	for (i = 1, k = 1; i < 6, k < 6; i++, k++)
 	{
-		sum = sum + k + pow(x, 4);
-		dbt = dbt * i;
+		sum = sum + k + abs(14);
+		dbt = dbt * pow(i, 2);
 	}
 
 	j = dbt;
